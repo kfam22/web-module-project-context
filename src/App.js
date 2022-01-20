@@ -14,8 +14,6 @@ function App() {
 
 	const addItem = item => {
 		setCart([...cart, item]);
-		// add the given item to the cart
-
 	};
 
 	return (
